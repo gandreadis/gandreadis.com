@@ -46,7 +46,7 @@ const Index = () => (
                             className="image is-128x128 has-text-centered"
                             style={ { margin: "0 auto", borderRadius: "100%", overflow: "hidden" } }
                         >
-                            <img src="/static/georgios-andreadis-portrait.png" alt="Georgios Andreadis"/>
+                            <img src="/static/georgios-andreadis-portrait-128.jpg" alt="Georgios Andreadis"/>
                         </figure>
                     </div>
                     <h1 className="title">
