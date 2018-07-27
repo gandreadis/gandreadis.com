@@ -6,7 +6,7 @@ const ProjectItem = ({ title, subtitle, team, context, link, keywords }) => (
         title={ "🔨 " + title }
         subtitle={ subtitle }
         keywords={ keywords }
-        color="info"
+        color="link"
     >
         <div className="content">
             { team } - { context }
