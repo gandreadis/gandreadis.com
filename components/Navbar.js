@@ -27,7 +27,7 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar is-fixed-top is-info">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="/">
+                    <a className="navbar-item" href="#">
                         Georgios Andreadis
                     </a>
                     <div className="navbar-burger burger" data-target="myNavbar">
