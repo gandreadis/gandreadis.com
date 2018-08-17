@@ -61,7 +61,7 @@ const Index = () => (
             </div>
         </section>
 
-        <section className="hero is-medium is-success">
+        <section className="hero is-medium is-light">
             <div className="hero-body">
                 <div className="container">
                     <Bio/>
@@ -70,16 +70,16 @@ const Index = () => (
         </section>
 
 
-        <section className="section is-medium" id="publications">
+        <section className="section is-medium has-background-dark" id="publications">
             <div className="container">
-                <h2 className="title is-2 has-text-centered">Publications</h2>
+                <h2 className="title is-2 has-text-centered has-text-light">Publications</h2>
                 <Publications/>
             </div>
         </section>
 
-        <section className="section is-medium" id="projects">
+        <section className="section is-medium has-background-dark" id="projects">
             <div className="container">
-                <h2 className="title is-2 has-text-centered">Projects</h2>
+                <h2 className="title is-2 has-text-centered has-text-light">Projects</h2>
                 <Projects/>
             </div>
         </section>
