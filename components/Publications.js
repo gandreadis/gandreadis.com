@@ -6,7 +6,7 @@ const PublicationItem = ({ title, subtitle, authors, venue, link, inPrint, keywo
         title={ "📄 " + title }
         subtitle={ subtitle }
         keywords={ keywords }
-        color="danger"
+        color="light"
     >
         <div className="content">
             { authors }

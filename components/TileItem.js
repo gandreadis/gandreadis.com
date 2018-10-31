@@ -11,7 +11,7 @@ export default ({ title, subtitle, keywords, color, children }) => (
             { children }
             <div style={ { marginTop: "auto" } }>
                 <div className="tags">{ keywords.map((keyword, index) => (
-                    <span className="tag is-rounded" key={ index }>{ keyword }</span>
+                    <span className="tag is-rounded is-info" key={index}>{keyword}</span>
                 )) }</div>
             </div>
         </article>
