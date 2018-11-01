@@ -2,7 +2,11 @@ import React from 'react';
 
 const ContactItem = ({ title, iconName, link }) => (
     <div className="column is-6-mobile is-3-tablet is-2-desktop has-text-centered">
-        <a href={ link } className="is-centered">
+        <a
+            href={link}
+            className="is-centered is-inline-block"
+            style={{padding: "1.5em"}}
+        >
             <i className={ "fa fa-2x fa-" + iconName }/><br/>
             { title }
         </a>
