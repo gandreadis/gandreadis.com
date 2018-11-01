@@ -27,7 +27,8 @@
     "raw-loader": "^0.5.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "trim-indentation": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
