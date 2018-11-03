@@ -18,7 +18,7 @@ export default () => (
         <ContactItem
             title="Email"
             iconName="envelope"
-            link="mailto:g.andreadis@hetnet.nl"
+            link="mailto:info@gandreadis.com"
         />
         <ContactItem
             title="GitHub"
