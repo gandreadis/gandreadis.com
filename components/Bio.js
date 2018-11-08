@@ -17,7 +17,7 @@ export default () => (
             title="M.Sc. Student @ TU Delft"
         >
             I recently finished my B.Sc. in <strong>Computer Science</strong> with Honours
-            at <strong>TU Delft</strong> and I'm now pursuing a M.Sc. degree.
+            at <strong>TU Delft</strong> and I'm now pursuing a M.Sc. degree in Software Technology.
         </BioItem>
         <BioItem
             emoji="📄"
