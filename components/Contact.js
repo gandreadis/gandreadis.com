@@ -33,7 +33,7 @@ export default () => (
         <ContactItem
             title="StackOverflow"
             iconName="stack-overflow"
-            link="https://stackoverflow.com/users/6171547/gandreadis"
+            link="https://stackoverflow.com/users/975317/gandreadis"
         />
         <ContactItem
             title="Twitter"
