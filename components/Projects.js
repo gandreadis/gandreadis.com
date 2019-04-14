@@ -35,7 +35,7 @@ export default () => (
         <ProjectItem
             title="Schaapi"
             subtitle="Early Detection of Breaking Changes Based on API Usages"
-            team="Café Jojo"
+            team="Team Café Jojo"
             context="Bachelor Thesis"
             link="https://cafejojo.org/schaapi"
             keywords={ ["software engineering", "automated test generation", "breaking changes", "continuous integration"] }
