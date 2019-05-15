@@ -46,7 +46,7 @@ export default () => (
             </BioItem>
             <BioItem
                 emoji="🎵"
-                title="Principal Viola"
+                title="Viola Player"
                 subtitle="Ricciotti & Krashna"
             >
                 I am currently principal violist in the <a href="https://ricciotti.nl" className="has-text-weight-bold">Ricciotti Ensemble</a> and the Delft student symphony orchestra <a href="https://krashna.nl" className="has-text-weight-bold">Krashna Musika</a>.
