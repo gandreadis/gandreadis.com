@@ -45,7 +45,8 @@ module.exports = {
     exportPathMap: function () {
         // Setup static export mapping
         return {
-            '/': { page: '/index' }
+            '/': { page: '/index' },
+            '/robots.txt': { page: '/static/robots.txt'},
         };
     }
 };
