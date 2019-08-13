@@ -14,7 +14,7 @@ const ContactItem = ({title, iconName, link}) => (
 )
 
 export default () => (
-    <div className="columns is-multiline is-mobile is-centered">
+    <div className="columns is-multiline is-mobile is-centered has-text-white">
         <ContactItem
             title="Email"
             iconName="envelope"
