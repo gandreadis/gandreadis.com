@@ -1,2 +1,4 @@
-import redirect from 'nextjs-redirect'
-export default redirect('/static/statistak')
+import React from 'react'
+import { Redirect } from 'react-router-dom'
+
+export default () => <Redirect to='/static/statistak'/>
