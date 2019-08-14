@@ -4,9 +4,9 @@
   "description": "Personal site of Georgios Andreadis",
   "main": "pages/index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "export": "next export",
     "build-and-export": "next build && next export"
   },
@@ -18,9 +18,10 @@
     "babel-plugin-wrap-in-js": "^1.1.0",
     "bulma": "^0.7.1",
     "dotenv": "^6.0.0",
+    "express": "^4.17.1",
     "glob": "^7.1.2",
     "mime": "^2.4.0",
-    "next": "^9.0.3",
+    "next": "^7.0.2",
     "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
     "postcss-easy-import": "^3.0.0",
@@ -29,6 +30,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "sass-loader": "^7.1.0",
+    "serve-static": "^1.14.1",
     "trim-indentation": "^1.0.0"
   },
   "devDependencies": {

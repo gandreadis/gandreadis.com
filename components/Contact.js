@@ -4,7 +4,7 @@ const ContactItem = ({title, iconName, link}) => (
     <div className="column is-6-mobile is-3-tablet is-2-desktop has-text-centered">
         <a
             href={link}
-            className="is-centered is-inline-block"
+            className="is-centered is-inline-block has-text-white"
             style={{padding: "1.5em"}}
         >
             <i className={"fa fa-2x fa-" + iconName}/><br/>
@@ -14,7 +14,7 @@ const ContactItem = ({title, iconName, link}) => (
 )
 
 export default () => (
-    <div className="columns is-multiline is-mobile is-centered has-text-white">
+    <div className="columns is-multiline is-mobile is-centered">
         <ContactItem
             title="Email"
             iconName="envelope"
