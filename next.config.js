@@ -46,6 +46,8 @@ module.exports = {
         // Setup static export mapping
         return {
             '/': { page: '/index' },
+            '/robots.txt': { page: '/robots.txt' },
+            '/statistak': { page: '/statistak' },
         };
     }
 };

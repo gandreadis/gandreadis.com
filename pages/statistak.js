@@ -1,4 +1,9 @@
 import React from 'react'
-import { Redirect } from 'react-router-dom'
+import Head from "next/head";
 
-export default () => <Redirect to='/static/statistak'/>
+export default () => (
+    <Head>
+        <meta http-equiv="refresh" content="0; url=/static/statistak"/>
+        <title>Redirect</title>
+    </Head>
+)
