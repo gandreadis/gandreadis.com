@@ -46,7 +46,6 @@ module.exports = {
         // Setup static export mapping
         return {
             '/': { page: '/index' },
-            '/robots.txt': { page: '/static/robots.txt'},
         };
     }
 };
