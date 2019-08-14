@@ -15,3 +15,8 @@ fs.copySync(
     path.join(__dirname, "/static/statistak"),
     path.join(__dirname, "/out/statistak")
 );
+
+fs.copySync(
+    path.join(__dirname, "/static/statistak/svg"),
+    path.join(__dirname, "/out/svg")
+);
