@@ -45,8 +45,9 @@ export default () => (
         <div className="tile is-ancestor">
             <ProjectItem
                 title="qEHBO"
-                subtitle="First Aid Mobile Training App - More Information Coming Soon"
+                subtitle="Dutch First Aid Mobile Training App"
                 context="Side Project"
+                link="https://play.google.com/store/apps/details?id=com.gandreadis.qehbo"
                 keywords={["education", "mobile", "quiz"]}
             />
         </div>
