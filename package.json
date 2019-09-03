@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gandreadis.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal site for Georgios Andreadis",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Georgios Andreadis <info@gandreadis.com>",
   "dependencies": {
     "bulma": "^0.7.5",
     "gatsby": "^2.13.73",
