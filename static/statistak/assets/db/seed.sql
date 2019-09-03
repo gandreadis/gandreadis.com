@@ -31,7 +31,7 @@ INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,da
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('27','Amsterdam Amstel','Amsterdam','nl','0','0','2019-08-01','11:20','0','0','0','0','1','170','','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('28','Inforsa, gesloten psychiatrie','Amsterdam','nl','0','0','2019-08-01','13:00','1','1','0','1','0','52','Thomas','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('29','OLVG Oost','Amsterdam','nl','0','0','2019-08-01','15:15','0','1','1','0','0','124','','');
-INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('30','Hotel New York & Fenix Food Factory','Rotterdam','nl','0','0','2019-08-01','18:00','1','0','0','0','1','257','','Met Van Dyke');
+INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('30','Kop van Zuid','Rotterdam','nl','0','0','2019-08-01','18:00','1','0','0','0','1','67','','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('31','Tante Nino','Rotterdam','nl','0','0','2019-08-01','20:00','1','0','1','0','0','224','','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('32','Kiev Airport','Kiev','ge','0','0','2019-08-02','20:15','0','0','0','0','1','465','','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('33','National Gallery','Tbilisi','ge','0','0','2019-08-03','12:30','1','0','1','0','0','82','','');
@@ -57,6 +57,8 @@ INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,da
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('53','Medeaplein','Batumi','ge','0','0','2019-08-08','20:45','1','0','1','0','0','227','','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('54','Boulevard','Batumi','ge','0','0','2019-08-08','22:00','1','0','1','0','0','342','','');
 INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('55','Fabrika','Tbilisi','ge','0','0','2019-08-09','21:00','1','0','1','0','0','1281','','');
+INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('56','Pont van Amsterdam Noord naar Amsterdam Centraal en terug','Amsterdam','nl','0','0','2019-07-31','17:40','1','0','0','0','1','187','','');
+INSERT OR REPLACE INTO optreden(id,locatie,plaats,landCode,longitude,latitude,datum,tijd,isBuiten,isSociaal,isOpenbaar,isBesloten,isWildOp,aantalBezoekers,gastdirigent,opmerkingen) VALUES ('57','Katendrecht','Rotterdam','nl','0','0','2019-08-01','18:30','1','0','0','0','1','213','','Met Van Dyke');
 INSERT OR REPLACE INTO stuk(id,titel,componist,code,metSolistKlarinet,metSolistZang) VALUES ('1','Sta op en schitter','E. de Boer','01','0','0');
 INSERT OR REPLACE INTO stuk(id,titel,componist,code,metSolistKlarinet,metSolistZang) VALUES ('2','Born to be free','A. Giorgobiani','02','0','0');
 INSERT OR REPLACE INTO stuk(id,titel,componist,code,metSolistKlarinet,metSolistZang) VALUES ('3','Prometheus ouverture','L. van Beethoven','03','0','0');
@@ -422,9 +424,6 @@ INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('48','29
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('48','27');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('48','17');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('48','31');
-INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('25','3');
-INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('25','27');
-INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('25','31');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('27','3');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('27','12');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('27','27');
@@ -490,8 +489,6 @@ INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('55','29
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('55','27');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('55','17');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('32','31');
-INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('30','3');
-INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('30','12');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('34','3');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('34','10');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('34','16');
@@ -533,4 +530,8 @@ INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('45','29
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('45','27');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('45','30');
 INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('45','28');
-
+INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('56','31');
+INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('25','3');
+INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('25','27');
+INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('30','3');
+INSERT OR REPLACE INTO `optreden_repertoire`(optredenId,stukId) VALUES ('57','12');
