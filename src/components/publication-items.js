@@ -1,6 +1,6 @@
 import React from "react";
-import trimIndent from "trim-indentation";
-import TileItem from "./TileItem";
+// import trimIndent from "trim-indentation";
+import TileItem from "./tile-item";
 
 const PublicationItem = ({title, subtitle, authors, venue, researchGate, acm, ieee, inPrint, keywords, bibtex}) => (
     <TileItem
@@ -31,7 +31,7 @@ const PublicationItem = ({title, subtitle, authors, venue, researchGate, acm, ie
                 {bibtex ?
                     <button
                         className="button is-small is-warning mr"
-                        onClick={() => copyToClipboard(trimIndent(bibtex).trim())}
+                        onClick={() => copyToClipboard(bibtex.trim())}
                     >
                         <i className="fa fa-clipboard mr-inline"/>
                         {" "}
@@ -52,7 +52,7 @@ const PublicationItem = ({title, subtitle, authors, venue, researchGate, acm, ie
     </TileItem>
 )
 
-export default () => (
+const PublicationItems = () => (
     <div>
         <div className="tile is-ancestor">
             <PublicationItem
@@ -64,22 +64,22 @@ export default () => (
                 acm="https://dl.acm.org/citation.cfm?id=3291706"
                 keywords={["reference architecture", "datacenter", "scheduling"]}
                 bibtex={`
-                    @inproceedings{DBLP:conf/SC/Andreadis18,
-                        author = {Andreadis, Georgios and Versluis, Laurens and Mastenbroek, Fabian and Iosup, Alexandru},
-                        title = {A Reference Architecture for Datacenter Scheduling: Design, Validation, and Experiments},
-                        booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis},
-                        series = {SC '18},
-                        year = {2018},
-                        location = {Dallas, Texas},
-                        pages = {37:1--37:15},
-                        articleno = {37},
-                        numpages = {15},
-                        url = {http://dl.acm.org/citation.cfm?id=3291656.3291706},
-                        acmid = {3291706},
-                        publisher = {IEEE Press},
-                        address = {Piscataway, NJ, USA},
-                        keywords = {datacenter, reference architecture, scheduling},
-                    }
+@inproceedings{DBLP:conf/SC/Andreadis18,
+    author = {Andreadis, Georgios and Versluis, Laurens and Mastenbroek, Fabian and Iosup, Alexandru},
+    title = {A Reference Architecture for Datacenter Scheduling: Design, Validation, and Experiments},
+    booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis},
+    series = {SC '18},
+    year = {2018},
+    location = {Dallas, Texas},
+    pages = {37:1--37:15},
+    articleno = {37},
+    numpages = {15},
+    url = {http://dl.acm.org/citation.cfm?id=3291656.3291706},
+    acmid = {3291706},
+    publisher = {IEEE Press},
+    address = {Piscataway, NJ, USA},
+    keywords = {datacenter, reference architecture, scheduling},
+}
                 `}
             />
             <PublicationItem
@@ -91,24 +91,24 @@ export default () => (
                 ieee="https://ieeexplore.ieee.org/document/8416385"
                 keywords={["ecosystems", "distributed systems"]}
                 bibtex={`
-                    @article{journals/corr/IosupUVAEHTBT18,
-                      author    = {Alexandru Iosup and
-                                   Alexandru Uta and
-                                   Laurens Versluis and
-                                   Georgios Andreadis and
-                                   Erwin van Eyk and
-                                   Tim Hegeman and
-                                   Sacheendra Talluri and
-                                   Vincent van Beek and
-                                   Lucian Toader},
-                      title     = {Massivizing Computer Systems: a Vision to Understand, Design, and Engineer Computer Ecosystems through and beyond Modern Distributed Systems},
-                      journal   = {CoRR},
-                      volume    = {abs/1802.05465},
-                      year      = {2018},
-                      url       = {http://arxiv.org/abs/1802.05465},
-                      archivePrefix = {arXiv},
-                      eprint    = {1802.05465}
-                    }
+@article{journals/corr/IosupUVAEHTBT18,
+  author    = {Alexandru Iosup and
+               Alexandru Uta and
+               Laurens Versluis and
+               Georgios Andreadis and
+               Erwin van Eyk and
+               Tim Hegeman and
+               Sacheendra Talluri and
+               Vincent van Beek and
+               Lucian Toader},
+  title     = {Massivizing Computer Systems: a Vision to Understand, Design, and Engineer Computer Ecosystems through and beyond Modern Distributed Systems},
+  journal   = {CoRR},
+  volume    = {abs/1802.05465},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1802.05465},
+  archivePrefix = {arXiv},
+  eprint    = {1802.05465}
+}
                 `}
             />
         </div>
@@ -122,23 +122,23 @@ export default () => (
                 ieee="https://ieeexplore.ieee.org/document/8121623"
                 keywords={["datacenters", "clouds", "simulator"]}
                 bibtex={`
-                    @inproceedings{conf/ispdc/IosupABBENOTVV17,
-                      author    = {Alexandru Iosup and
-                                   Georgios Andreadis and
-                                   Vincent van Beek and
-                                   Matthijs Bijman and
-                                   Erwin {van Eyk} and
-                                   Mihai Neacsu and
-                                   Leon Overweel and
-                                   Sacheendra Talluri and
-                                   Laurens Versluis and
-                                   Maaike Visser},
-                      title     = {The OpenDC Vision: Towards Collaborative Datacenter Simulation and Exploration for Everybody},
-                      booktitle = {16th International Symposium on Parallel and Distributed Computing,
-                                   {ISPDC} 2017, Innsbruck, Austria, July 4-6, 2017},
-                      pages     = {1--10},
-                      year      = {2017}
-                    }
+@inproceedings{conf/ispdc/IosupABBENOTVV17,
+  author    = {Alexandru Iosup and
+               Georgios Andreadis and
+               Vincent van Beek and
+               Matthijs Bijman and
+               Erwin {van Eyk} and
+               Mihai Neacsu and
+               Leon Overweel and
+               Sacheendra Talluri and
+               Laurens Versluis and
+               Maaike Visser},
+  title     = {The OpenDC Vision: Towards Collaborative Datacenter Simulation and Exploration for Everybody},
+  booktitle = {16th International Symposium on Parallel and Distributed Computing,
+               {ISPDC} 2017, Innsbruck, Austria, July 4-6, 2017},
+  pages     = {1--10},
+  year      = {2017}
+}
                 `}
             />
         </div>
@@ -155,3 +155,5 @@ function copyToClipboard(text) {
     document.body.removeChild(textAreaElement)
     return result;
 }
+
+export default PublicationItems
