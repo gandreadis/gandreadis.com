@@ -1,8 +1,10 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import ProjectItems from "../components/project-items"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import ProjectItems from "../components/project-items";
+import SEO from "../components/seo";
+
+import "../styles/index.scss";
 
 const ProjectsPage = () => (
   <Layout headerTitle="Projects" headerSubtitle="Things I've been working on" headerColor="warning">

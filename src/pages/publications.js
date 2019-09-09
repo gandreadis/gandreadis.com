@@ -1,8 +1,10 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import PublicationItems from "../components/publication-items"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import PublicationItems from "../components/publication-items";
+import SEO from "../components/seo";
+
+import "../styles/index.scss";
 
 const ProjectsPage = () => (
   <Layout headerTitle="Publications" headerSubtitle="Publications I have (co)authored" headerColor="success">
