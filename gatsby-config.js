@@ -3,6 +3,7 @@ module.exports = {
     title: `Georgios Andreadis`,
     description: `MSc student Computer Science @ TU Delft | Junior Researcher @ AtLarge Research | Viola player in the Ricciotti Ensemble`,
     author: `@geoandreadis`,
+    siteUrl: `https://gandreadis.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-      `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-plugin-sitemap`,
   ],
 }
