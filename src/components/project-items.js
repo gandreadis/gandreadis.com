@@ -1,5 +1,5 @@
-import React from "react"
-import TileItem from "./tile-item"
+import React from "react";
+import TileItem from "./tile-item";
 
 const ProjectItem = ({ title, subtitle, team, context, link, keywords }) => (
   <TileItem
@@ -43,6 +43,13 @@ const ProjectItems = () => (
       />
     </div>
     <div className="tile is-ancestor">
+      <ProjectItem
+        title="Statistak"
+        subtitle="Tour Log and Statistics for the Ricciotti Ensemble"
+        context="Side Project"
+        link="https://statistak.nl"
+        keywords={["music", "tour", "web app"]}
+      />
       <ProjectItem
         title="qEHBO"
         subtitle="Dutch First Aid Mobile Training App"
