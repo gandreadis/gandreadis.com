@@ -28,7 +28,6 @@ class Navbar extends Component {
   }
 
   render() {
-    let { siteTitle } = this.props;
     return (
       <nav className="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="container">

@@ -5,11 +5,11 @@
   "version": "0.1.0",
   "author": "Georgios Andreadis <info@gandreadis.com>",
   "dependencies": {
-    "bulma": "^0.7.5",
+    "bulma": "^0.8.2",
     "gatsby": "^2.13.73",
     "gatsby-image": "^2.2.10",
     "gatsby-plugin-manifest": "^2.2.6",
-    "gatsby-plugin-offline": "^2.2.7",
+    "gatsby-plugin-offline": "^3.1.5",
     "gatsby-plugin-react-helmet": "^3.1.4",
     "gatsby-plugin-remove-trailing-slashes": "^2.1.5",
     "gatsby-plugin-sass": "^2.1.12",
@@ -21,11 +21,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
-    "trim-indentation": "^1.1.0"
+    "react-helmet": "^6.0.0",
+    "trim-indentation": "^2.3.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.5"
   },
   "keywords": [
     "gatsby"

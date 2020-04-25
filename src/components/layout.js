@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import { graphql, useStaticQuery } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import { Helmet } from "react-helmet"
-import Footer from "./footer"
-import Navbar from "./navbar"
+import { graphql, useStaticQuery } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import { Helmet } from "react-helmet";
+import Footer from "./footer";
+import Navbar from "./navbar";
 
 const Layout = ({ headerTitle, headerSubtitle, headerColor, children }) => {
   const data = useStaticQuery(graphql`
@@ -34,7 +34,7 @@ const Layout = ({ headerTitle, headerSubtitle, headerColor, children }) => {
         <meta name="msapplication-config" content="/browserconfig.xml"/>
         <meta name="theme-color" content="#00a6ed"/>
 
-        <html className="is-fullheight"/>
+        <html className="is-fullheight" lang="en"/>
         <body className="has-navbar-fixed-top is-fullheight"/>
 
         <script src="https://use.fontawesome.com/9765839b42.js"/>

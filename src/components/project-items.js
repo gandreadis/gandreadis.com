@@ -44,12 +44,21 @@ const ProjectItems = () => (
     </div>
     <div className="tile is-ancestor">
       <ProjectItem
+        title="We\Visit"
+        subtitle="Platform for relatives to connect with patients in hospital through video calls"
+        context="Volunteer Maintainer & Developer"
+        link="https://wevisit.hospital/"
+        keywords={["hospital", "video calling", "corona"]}
+      />
+      <ProjectItem
         title="Statistak"
         subtitle="Tour Log and Statistics for the Ricciotti Ensemble"
         context="Side Project"
         link="https://statistak.nl"
         keywords={["music", "tour", "web app"]}
       />
+    </div>
+    <div className="tile is-ancestor">
       <ProjectItem
         title="qEHBO"
         subtitle="Dutch First Aid Mobile Training App"
