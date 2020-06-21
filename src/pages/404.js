@@ -1,15 +1,14 @@
-import { Link } from "gatsby";
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-
-import "../styles/index.scss";
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const NotFoundPage = () => (
-  <Layout headerTitle="404" headerSubtitle="Page Not Found" headerColor="warning">
-    <SEO title="404: Not found"/>
-    <p>This page doesn't exist. <Link to="/">Return home</Link>?</p>
+  <Layout pageInfo={{ name: '404', title: 'Page Not Found' }}>
+    <SEO title="404: Not found" />
+    <p>
+      This page doesn't exist. <a href="/">Return home</a>?
+    </p>
   </Layout>
 )
 

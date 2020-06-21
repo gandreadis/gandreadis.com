@@ -1,77 +1,85 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import React, { Component } from "react";
+import React from 'react'
+import { Link } from 'gatsby'
 
-class Navbar extends Component {
+import { Nav, Navbar } from 'react-bootstrap'
+import Container from 'react-bootstrap/Container'
+import * as PropTypes from 'prop-types'
+
+const NavLink = ({ title, url }) => (
+  <Link to={url}>
+    <Nav.Link as="span" className="text-light">
+      {title}
+    </Nav.Link>
+  </Link>
+)
+
+class CustomNavbar extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = { transparent: true }
+  }
+
   componentDidMount() {
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
+    this.listener = document.addEventListener('scroll', () => {
+      this.checkScrollState()
+    })
+  }
 
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
+  componentWillUnmount() {
+    document.removeEventListener('scroll', this.listener)
+  }
 
-      // Add a click event on each of them
-      $navbarBurgers.forEach(el => {
-        el.addEventListener("click", () => {
-
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle("is-active");
-          $target.classList.toggle("is-active");
-
-        });
-      });
+  checkScrollState() {
+    const scrolled = document.scrollingElement.scrollTop
+    if (scrolled >= 120) {
+      if (this.state.transparent) {
+        this.setState({ transparent: false })
+      }
+    } else {
+      if (!this.state.transparent) {
+        this.setState({ transparent: true })
+      }
     }
   }
 
   render() {
+    let { pageInfo } = this.props
     return (
-      <nav className="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation">
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item">
-              Georgios Andreadis
+      <>
+        <Navbar
+          variant="light"
+          bg={
+            this.state.transparent && pageInfo.name === 'index'
+              ? 'transparent'
+              : 'primary'
+          }
+          expand="md"
+          id="site-navbar"
+          fixed="top"
+        >
+          <Container>
+            <Link to="/">
+              <Navbar.Brand as="span" className="text-light">
+                Georgios Andreadis
+              </Navbar.Brand>
             </Link>
-
-            <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false"
-               data-target="topNavbar" href="#">
-              <span aria-hidden="true"/>
-              <span aria-hidden="true"/>
-              <span aria-hidden="true"/>
-            </a>
-          </div>
-
-          <div id="topNavbar" className="navbar-menu">
-            <div className="navbar-end">
-              <Link to="/" className="navbar-item">
-                Home
-              </Link>
-              <Link to="/projects" className="navbar-item">
-                Projects
-              </Link>
-              <Link to="/publications" className="navbar-item">
-                Publications
-              </Link>
-              <Link to="/music" className="navbar-item">
-                Music
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
-    );
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="ml-auto" activeKey={pageInfo && pageInfo.name}>
+                <NavLink title="Projects" url="/projects" />
+                <NavLink title="Research" url="/research" />
+                <NavLink title="Music" url="/music" />
+                <NavLink title="Contact" url="/contact" />
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </>
+    )
   }
 }
 
-Navbar.propTypes = {
-  siteTitle: PropTypes.string,
-}
+CustomNavbar.propTypes = { pageInfo: PropTypes.any }
 
-Navbar.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Navbar
+export default CustomNavbar

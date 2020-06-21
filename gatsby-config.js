@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Georgios Andreadis`,
-    description: `MSc student Computer Science @ TU Delft | Junior Researcher @ AtLarge Research | Viola player in the Ricciotti Ensemble`,
+    description: `Computer Science student and Viola player`,
     author: `@geoandreadis`,
     siteUrl: `https://gandreadis.com`,
   },
@@ -19,5 +19,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-catch-links`,
   ],
 }

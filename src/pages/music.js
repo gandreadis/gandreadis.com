@@ -1,15 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
-import "../styles/index.scss";
-
-const MusicPage = () => (
-  <Layout headerTitle="Music" headerSubtitle="Ensembles I currently play in and have previously played in" headerColor="info">
-    <SEO title="Music"/>
-    <p>Still under construction...</p>
+const Music = () => (
+  <Layout pageInfo={{ name: 'music', title: 'Music' }}>
+    <SEO title="Music" />
+    <em>
+      <span role="img" aria-label="Construction">
+        🚧
+      </span>
+      {' '}
+      Coming soon!
+      {' '}
+      <span role="img" aria-label="Construction">
+        🚧
+      </span>
+    </em>
   </Layout>
 )
 
-export default MusicPage
+export default Music

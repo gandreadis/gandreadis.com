@@ -1,6 +1,6 @@
 # gandreadis.com
 
-Personal site built with Gatsby and Bulma.
+Personal site built with Gatsby and Bootstrap.
 
 ## Installation
 

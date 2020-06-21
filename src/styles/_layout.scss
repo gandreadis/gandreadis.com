@@ -1,0 +1,17 @@
+// Fill the full height of page
+.is-fullheight, #___gatsby, #gatsby-focus-wrapper {
+  height: 100% !important;
+}
+
+// Expanding main content
+.main-content {
+  display: flex;
+  flex-direction: column;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}
