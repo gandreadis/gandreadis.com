@@ -72,14 +72,10 @@ const Index = () => (
           , an effort to provide accessible datacenter simulation in a web
           application format
         </BioItem>
-        <BioItem emoji="🎵" title="Viola Player" subtitle="Ricciotti & Krashna">
+        <BioItem emoji="🎵" title="Viola Player" subtitle="Ricciotti Ensemble">
           I currently play the viola in the Dutch street symphony orchestra, the{' '}
           <a href="https://ricciotti.nl" className="has-text-weight-bold">
             Ricciotti Ensemble
-          </a>
-          , and Delft's student symphony orchestra,{' '}
-          <a href="https://krashna.nl" className="has-text-weight-bold">
-            Krashna Musika
           </a>
         </BioItem>
       </Row>
