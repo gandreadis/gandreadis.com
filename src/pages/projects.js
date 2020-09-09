@@ -71,7 +71,7 @@ const Projects = () => (
         title="qEHBO"
         subtitle="Dutch First Aid Mobile Training App"
         context="Side Project"
-        link="https://play.google.com/store/apps/details?id=com.gandreadis.qehbo"
+        link="https://github.com/gandreadis/qehbo"
         keywords={['education', 'mobile', 'quiz']}
       />
       <ProjectItem
