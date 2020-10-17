@@ -60,7 +60,15 @@ class CustomNavbar extends React.Component {
         >
           <Container>
             <Link to="/">
-              <Navbar.Brand as="span" className="text-light">
+              <Navbar.Brand
+                as="span"
+                className={
+                  'text-light ' +
+                  (this.state.transparent && pageInfo.name === 'index'
+                    ? 'd-none'
+                    : '')
+                }
+              >
                 Georgios Andreadis
               </Navbar.Brand>
             </Link>

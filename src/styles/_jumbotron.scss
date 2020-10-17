@@ -1,5 +1,7 @@
 .image-jumbotron {
-  background: linear-gradient(180deg, rgba(17, 138, 178, 0.5), rgba(239, 71, 111, 0.3)),url(/ricciotti-katurli.jpg) no-repeat center 70%;
+  background: linear-gradient(180deg, rgba(17, 138, 178, 0.7), rgba(19, 99, 133, 0.5)),url(/ricciotti-katurli.jpg) no-repeat center 70%;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
+  text-align: right;
+  font-size: 1.2rem;
 }

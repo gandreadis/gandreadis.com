@@ -50,7 +50,6 @@ const Projects = () => (
           'software engineering',
           'automated test generation',
           'breaking changes',
-          'ci',
         ]}
       />
       <ProjectItem

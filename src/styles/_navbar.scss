@@ -1,3 +1,9 @@
 nav.navbar {
   transition: background-color 200ms;
+
+  a, a span:hover {
+    @extend .text-white-50;
+
+    text-decoration: none;
+  }
 }
