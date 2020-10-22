@@ -25,7 +25,7 @@ const Index = () => (
             <p>
               PhD Candidate @ LUMC Leiden & CWI <FaHospital className="ml-1" />
               <br />
-              Violist @ Ricciotti Ensemble & Ensemble ZOEF{' '}
+              Violist @ Ricciotti Ensemble & ZOEF{' '}
               <FaMusic className="ml-1" />
             </p>
           </Col>
