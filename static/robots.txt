@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /statistak/
-Disallow: /2019-poster-epileptic-seizure-annotation.pdf

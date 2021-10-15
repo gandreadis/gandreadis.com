@@ -1,0 +1,99 @@
+baseurl = "https://gandreadis.com"
+title = "Georgios Andreadis"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+enableEmoji = true
+
+[params]
+  author = "Georgios Andreadis"
+  info = ["PhD Candidate at LUMC and CWI", "Violist at Ricciotti and ZOEF"]
+  description = "Personal website of Georgios Andreadis"
+  keywords = "georgios,andreadis,gandreadis,jorgos,image registration"
+  avatarurl = "images/gandreadis-avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
+
+  footercontent = ""
+  hideFooter = false
+  hideCredits = true
+  hideCopyright = false
+  since = 2021
+
+  enableTwemoji = true
+
+  colorScheme = "light"
+  hidecolorschemetoggle = true
+
+  customCSS = []
+  customSCSS = []
+  customJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:info@gandreadis.com"
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/gandreadis/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://linkedin.com/in/gandreadis"
+[[params.social]]
+  name = "ResearchGate"
+  icon = "fa fa-researchgate fa-2x"
+  weight = 4
+  url = "https://www.researchgate.net/profile/Georgios_Andreadis4"
+[[params.social]]
+  name = "StackOverflow"
+  icon = "fa fa-stack-overflow fa-2x"
+  weight = 5
+  url = "https://stackoverflow.com/users/975317/gandreadis"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 6
+  url = "https://twitter.com/geoandreadis/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Research"
+  weight = 2
+  url = "research/"
+[[menu.main]]
+  name = "Software"
+  weight = 3
+  url = "software/"
+[[menu.main]]
+  name = "Music"
+  weight = 4
+  url = "music/"
+[[menu.main]]
+  name = "About"
+  weight = 5
+  url = "about/"
