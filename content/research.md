@@ -44,3 +44,7 @@ _Listed in reverse chronological order_
 
 1. M.Sc. thesis: **Andreadis, G.** (2020, August). Capelin: Fast Data-Driven Capacity Planning for Cloud Datacenters. TU Delft. [[Thesis]](https://repository.tudelft.nl/islandora/object/uuid:d6d50861-86a3-4dd3-a13f-42d84db7af66?collection=education) **(Awarded Best Graduate of TU Delft 2020)**
 2. B.Sc. thesis: Abrahams, J., **Andreadis, G.**, Boone, C., & Dekker, F. (2018, July). Schaapi: Early detection of breaking changes based on API usage. [[Thesis]](https://repository.tudelft.nl/islandora/object/uuid%3Acca5e4ea-3d00-4ae3-877a-b302829e7f08?collection=education)
+
+## Talks
+
+* 14 December 2021: [Lunch lecture](https://ch.tudelft.nl/activities/event/2021/lunch-lecture-computer-science-6/) for students of the EEMCS faculty on my past and current research. Organized by Study Association Christiaan Huygens, Delft University of Technology. **[invited talk]**
