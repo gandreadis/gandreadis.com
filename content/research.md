@@ -1,6 +1,6 @@
 +++
 title = "Research"
-description = "An overview of current and past research projects, including publications that I have (co)authored"
+description = "An overview of current and past research projects, including publications that I have (co)authored and talks I have given"
 +++
 
 _Jump directly to:_
@@ -8,6 +8,7 @@ _Jump directly to:_
 1. [Projects](#projects)
 2. [Publications](#publications)
 3. [Theses](#theses)
+3. [Talks](#talks)
 
 ## Projects
 
@@ -46,5 +47,7 @@ _Listed in reverse chronological order_
 2. B.Sc. thesis: Abrahams, J., **Andreadis, G.**, Boone, C., & Dekker, F. (2018, July). Schaapi: Early detection of breaking changes based on API usage. [[Thesis]](https://repository.tudelft.nl/islandora/object/uuid%3Acca5e4ea-3d00-4ae3-877a-b302829e7f08?collection=education)
 
 ## Talks
+_Listed in reverse chronological order_
 
 * 14 December 2021: [Lunch lecture](https://ch.tudelft.nl/activities/event/2021/lunch-lecture-computer-science-6/) for students of the EEMCS faculty on my past and current research. Organized by Study Association Christiaan Huygens, Delft University of Technology. **[invited talk]**
+* 14 November 2018: [Paper presentation](https://sc18.supercomputing.org/proceedings/tech_paper/tech_paper_pages/pap229.html) on my paper on a reference architecture for schedulers at Supercomputing 2018, Dallas TX.
