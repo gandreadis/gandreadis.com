@@ -51,5 +51,6 @@ _Listed in reverse chronological order_
 ## Talks
 _Listed in reverse chronological order_
 
+* 18 May 2022: [Highlight Talk](https://wiki.alice.universiteitleiden.nl/index.php?title=ALICE-SHARK_User_Meeting_2022) on my PhD research, for users and staff of the HPC clusters of the medical center and university. ALICE-SHARK User Meeting, Leiden University.
 * 14 December 2021: [Lunch lecture](https://ch.tudelft.nl/activities/event/2021/lunch-lecture-computer-science-6/) for students of the EEMCS faculty on my past and current research. Organized by Study Association Christiaan Huygens, Delft University of Technology. **[invited talk]**
 * 14 November 2018: [Paper presentation](https://sc18.supercomputing.org/proceedings/tech_paper/tech_paper_pages/pap229.html) on my paper on a reference architecture for schedulers at Supercomputing 2018, Dallas TX.
