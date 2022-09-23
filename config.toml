@@ -14,7 +14,7 @@ enableEmoji = true
 
 [params]
   author = "Georgios Andreadis"
-  info = ["PhD Candidate at LUMC and CWI", "Violist at Ricciotti and ZOEF"]
+  info = ["PhD Candidate at LUMC and CWI", "Violist at Ensemble ZOEF"]
   description = "Personal website of Georgios Andreadis"
   keywords = "georgios,andreadis,gandreadis,jorgos,image registration"
   avatarurl = "images/gandreadis-avatar.jpg"
