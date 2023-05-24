@@ -35,6 +35,7 @@ _Jump directly to:_
 ## Publications
 _Listed in reverse chronological order_
 
+1. **Andreadis, G.**, Bosman, P.A.N., & Alderliesten, T. (2023, July). MOREA: a GPU-accelerated Evolutionary Algorithm for Multi-Objective Deformable Registration of 3D Medical Images. In _Proceedings of the 2023 Genetic and Evolutionary Computation Conference (GECCO)._ ACM, _in print_. [[arXiv]](https://arxiv.org/abs/2303.04873)
 1. **Andreadis, G.**, Bosman, P.A.N., & Alderliesten, T. (2022, April). Multi-objective dual simplex-mesh based deformable image registration for 3D medical images - proof of concept. In _Medical Imaging 2022: Image Processing (Vol. 12032, pp. 744-750)._ SPIE. [[arXiv]](https://arxiv.org/abs/2202.11001) [[SPIE]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/2605498/Multi-objective-dual-simplex-mesh-based-deformable-image-registration-for/10.1117/12.2605498.short)
 1. **Andreadis, G.**, Mastenbroek, F., Van Beek, V., & Iosup, A. (2021, May). Capelin: Data-Driven Compute Capacity Procurement for Cloud Datacenters using Portfolios of Scenarios. In _Transactions on Parallel and Distributed Systems._ IEEE. [[IEEE]](https://ieeexplore.ieee.org/document/9444213) [[ResearchGate Technical Report]](https://www.researchgate.net/publication/349758822_Capelin_Data-Driven_Capacity_Procurement_for_Cloud_Datacenters_using_Portfolios_of_Scenarios_--_Extended_Technical_Report) [[ResearchGate Main Article]](https://www.researchgate.net/publication/351966601_Capelin_Data-Driven_Compute_Capacity_Procurement_for_Cloud_Datacenters_Using_Portfolios_of_Scenarios)
 1. Mastenbroek, F., **Andreadis, G.**, Jounaid, S., Lai, W., Burley, J., Bosch, J., van Eyk, E., Versluis, L., van Beek, V., & Iosup, A. (2021, May). OpenDC 2.0: Convenient modeling and simulation of emerging technologies in cloud datacenters. In _2021 IEEE/ACM 21st International Symposium on Cluster, Cloud and Internet Computing (CCGrid) (pp. 455-464)._ IEEE. [[IEEE]](https://ieeexplore.ieee.org/abstract/document/9499454)
@@ -51,6 +52,7 @@ _Listed in reverse chronological order_
 ## Talks
 _Listed in reverse chronological order_
 
-* 18 May 2022: [Highlight Talk](https://wiki.alice.universiteitleiden.nl/index.php?title=ALICE-SHARK_User_Meeting_2022) on my PhD research, for users and staff of the HPC clusters of the medical center and university. ALICE-SHARK User Meeting, Leiden University.
+* 24 May 2023: Research pitch on my PhD project at the LUMC Cancer Research Day. **[received Best Pitch award]**
+* 18 May 2022: [Highlight talk](https://wiki.alice.universiteitleiden.nl/index.php?title=ALICE-SHARK_User_Meeting_2022) on my PhD research, for users and staff of the HPC clusters of the medical center and university. ALICE-SHARK User Meeting, Leiden University.
 * 14 December 2021: [Lunch lecture](https://ch.tudelft.nl/activities/event/2021/lunch-lecture-computer-science-6/) for students of the EEMCS faculty on my past and current research. Organized by Study Association Christiaan Huygens, Delft University of Technology. **[invited talk]**
 * 14 November 2018: [Paper presentation](https://sc18.supercomputing.org/proceedings/tech_paper/tech_paper_pages/pap229.html) on my paper on a reference architecture for schedulers at Supercomputing 2018, Dallas TX.
