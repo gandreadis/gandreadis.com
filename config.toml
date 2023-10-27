@@ -17,7 +17,7 @@ enableEmoji = true
   info = ["Conductor","PhD Candidate"]
   description = "Personal website of Georgios Andreadis"
   keywords = "georgios,andreadis,gandreadis,jorgos,image registration"
-  avatarurl = "images/directie-klassiek-collectief-fotograaf-kang-li.jpg" #"images/gandreadis-avatar.jpg"
+  avatarurl = "images/directie-klassiek-collectief-fotograaf-kang-li-small.jpg" #"images/gandreadis-avatar.jpg"
 
   favicon_32 = "images/favicon-32x32.png"
   favicon_16 = "images/favicon-16x16.png"
