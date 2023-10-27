@@ -9,6 +9,8 @@ _Jump directly to:_
 1. [Publications](#publications)
 1. [Theses](#theses)
 1. [Talks](#talks)
+1. [Software](#software)
+1. [Biography](#biography)
 
 ## Projects
 
@@ -56,3 +58,24 @@ _Listed in reverse chronological order_
 * 18 May 2022: [Highlight talk](https://wiki.alice.universiteitleiden.nl/index.php?title=ALICE-SHARK_User_Meeting_2022) on my PhD research, for users and staff of the HPC clusters of the medical center and university. ALICE-SHARK User Meeting, Leiden University.
 * 14 December 2021: [Lunch lecture](https://ch.tudelft.nl/activities/event/2021/lunch-lecture-computer-science-6/) for students of the EEMCS faculty on my past and current research. Organized by Study Association Christiaan Huygens, Delft University of Technology. **[invited talk]**
 * 14 November 2018: [Paper presentation](https://sc18.supercomputing.org/proceedings/tech_paper/tech_paper_pages/pap229.html) on my paper on a reference architecture for schedulers at Supercomputing 2018, Dallas TX.
+
+## Software
+### Current software projects
+
+* **Statistak** - Tour Log and Statistics for the Ricciotti Ensemble [[Website]](https://statistak.nl)
+  * Role: Designer and developer
+
+### Previous software projects
+
+* **We\Visit** - Platform for relatives to connect with patients in hospital through video calls [[Website]](https://wevisit.hospital/)
+  * Role: Volunteer Maintainer & Developer
+* **OpenDC** - Online datacenter simulator with emphasis on visualization and education [[Website]](https://opendc.org)
+  * Role: Frontend engineer, later technology lead
+* **qEHBO** - Dutch First Aid Mobile Training App [[GitHub]](https://github.com/gandreadis/qehbo)
+  * Role: Initiator, designer, and developer
+* **Support NJON** - Site to support the National Youth Orchestra of the Netherlands funding campaign [[Website]](https://support-njon.nl)
+  * Role: Web designer and developer
+
+## Biography
+
+Ir. Georgios Andreadis is a PhD candidate at the Leiden University Medical Center (LUMC) and guest researcher in the Life Sciences and Health (LSH) research group at the Centrum Wiskunde & Informatica (CWI), under supervision of dr. Tanja Alderliesten and prof.dr. Peter A.N. Bosman. Andreadis obtained his BSc and MSc degrees in Computer Science at Delft University of Technology in 2020. For his MSc thesis research on cloud capacity planning, he was awarded the title of Best Graduate of the TU Delft. The focus of his current PhD research is on multi-objective deformable image registration for medical images, using evolutionary algorithms. The large anatomical differences frequently present between medical scans of patients make transferring knowledge between scans an open challenge. In his research, he aims to find a method for deformable image registration that is flexible and reliable enough for clinical application but also involves the expertise of clinical users into the process.

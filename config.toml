@@ -14,16 +14,15 @@ enableEmoji = true
 
 [params]
   author = "Georgios Andreadis"
-  info = ["PhD Candidate at LUMC and CWI", "Violist at Ensemble ZOEF"]
+  info = ["Conductor","PhD Candidate"]
   description = "Personal website of Georgios Andreadis"
   keywords = "georgios,andreadis,gandreadis,jorgos,image registration"
-  avatarurl = "images/gandreadis-avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  avatarurl = "images/directie-klassiek-collectief-fotograaf-kang-li.jpg" #"images/gandreadis-avatar.jpg"
 
   favicon_32 = "images/favicon-32x32.png"
   favicon_16 = "images/favicon-16x16.png"
 
-  footercontent = ""
+  footercontent = "<em>Photography: Kang Li</em>"
   hideFooter = false
   hideCredits = true
   hideCopyright = false
@@ -31,7 +30,7 @@ enableEmoji = true
 
   enableTwemoji = true
 
-  colorScheme = "light"
+  colorScheme = "dark"
   hidecolorschemetoggle = true
 
   customCSS = []
@@ -51,15 +50,15 @@ enableEmoji = true
   weight = 1
   url = "mailto:info@gandreadis.com"
 [[params.social]]
-  name = "GitHub"
-  icon = "fa fa-github fa-2x"
-  weight = 2
-  url = "https://github.com/gandreadis/"
-[[params.social]]
   name = "LinkedIn"
   icon = "fa fa-linkedin fa-2x"
-  weight = 3
+  weight = 2
   url = "https://linkedin.com/in/gandreadis"
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github fa-2x"
+  weight = 3
+  url = "https://github.com/gandreadis/"
 [[params.social]]
   name = "ResearchGate"
   icon = "fa fa-researchgate fa-2x"
@@ -70,30 +69,13 @@ enableEmoji = true
   icon = "fa fa-stack-overflow fa-2x"
   weight = 5
   url = "https://stackoverflow.com/users/975317/gandreadis"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 6
-  url = "https://twitter.com/geoandreadis/"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Music"
   weight = 1
-  url  = "posts/"
+  url = "music/"
 [[menu.main]]
   name = "Research"
   weight = 2
   url = "research/"
-[[menu.main]]
-  name = "Software"
-  weight = 3
-  url = "software/"
-[[menu.main]]
-  name = "Music"
-  weight = 4
-  url = "music/"
-[[menu.main]]
-  name = "About"
-  weight = 5
-  url = "about/"
