@@ -22,7 +22,7 @@ enableEmoji = true
   favicon_32 = "images/favicon-32x32.png"
   favicon_16 = "images/favicon-16x16.png"
 
-  footercontent = "<em>Photography: Kang Li</em>"
+  footercontent = "<em>Photography: Kang Li</em><br/>KVK: 98690825"
   hideFooter = false
   hideCredits = true
   hideCopyright = false
