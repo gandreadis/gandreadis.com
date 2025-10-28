@@ -14,7 +14,7 @@ enableEmoji = true
 
 [params]
   author = "Georgios Andreadis"
-  info = ["Conductor","PhD Candidate"]
+  info = ["Conductor", "PhD Candidate", "App Developer"]
   description = "Personal website of Georgios Andreadis"
   keywords = "georgios,andreadis,gandreadis,jorgos,image registration"
   avatarurl = "images/directie-klassiek-collectief-fotograaf-kang-li-small.jpg" #"images/gandreadis-avatar.jpg"
@@ -22,7 +22,7 @@ enableEmoji = true
   favicon_32 = "images/favicon-32x32.png"
   favicon_16 = "images/favicon-16x16.png"
 
-  footercontent = "<em>Photography: Kang Li</em><br/>KVK: 98690825"
+  footercontent = "KVK: 98690825"
   hideFooter = false
   hideCredits = true
   hideCopyright = false
