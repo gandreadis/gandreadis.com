@@ -79,3 +79,7 @@ enableEmoji = true
   name = "Research"
   weight = 2
   url = "research/"
+[[menu.main]]
+  name = "Plantneus"
+  weight = 3
+  url = "https://plantneus.com"
