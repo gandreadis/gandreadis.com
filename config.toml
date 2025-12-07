@@ -12,7 +12,7 @@ enableEmoji = true
 
 [params]
   author = "Georgios Andreadis"
-  info = ["Conductor", "PhD Candidate", "App Developer"]
+  info = ["Algorithm Engineer", "Researcher", "Orchestra Conductor"]
   description = "Personal website of Georgios Andreadis"
   keywords = "georgios,andreadis,gandreadis,jorgos,image registration"
   avatarurl = "images/directie-klassiek-collectief-fotograaf-kang-li-small.jpg" #"images/gandreadis-avatar.jpg"
@@ -74,7 +74,7 @@ enableEmoji = true
   weight = 1
   url = "music/"
 [[menu.main]]
-  name = "Research"
+  name = "Research & Software"
   weight = 2
   url = "research/"
 [[menu.main]]
